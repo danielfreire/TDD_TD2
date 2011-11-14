@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MGAD_Model", "MGAD_Model\MGAD_Model.csproj", "{9C5E6681-48B8-48E5-9693-8624D84427A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MGAD_Test", "MGAD_Test\MGAD_Test.csproj", "{8CB938FF-E594-4F3B-AA3A-593A1982F01E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{44322C4E-2A20-4207-9C16-D95C9E9C866C}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		MGAD_TDD2.vsmdi = MGAD_TDD2.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MGAD_Persistence", "MGAD_Persistence\MGAD_Persistence.csproj", "{323144FF-E959-4F27-82FE-01E89E726710}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = MGAD_TDD2.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C5E6681-48B8-48E5-9693-8624D84427A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C5E6681-48B8-48E5-9693-8624D84427A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C5E6681-48B8-48E5-9693-8624D84427A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C5E6681-48B8-48E5-9693-8624D84427A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CB938FF-E594-4F3B-AA3A-593A1982F01E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CB938FF-E594-4F3B-AA3A-593A1982F01E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CB938FF-E594-4F3B-AA3A-593A1982F01E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CB938FF-E594-4F3B-AA3A-593A1982F01E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{323144FF-E959-4F27-82FE-01E89E726710}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{323144FF-E959-4F27-82FE-01E89E726710}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{323144FF-E959-4F27-82FE-01E89E726710}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{323144FF-E959-4F27-82FE-01E89E726710}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

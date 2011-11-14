@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="7ef046dc-dbbd-497f-9798-04140d5de359" name="DANIEL@NDANIEL 2011-10-26 20:40:23" runUser="NDANIEL\DANIEL" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="00656b24-79bd-4b63-882c-314f1b4727c1">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="DANIEL_NDANIEL 2011-10-26 20_40_23">
+      <DeploymentItem filename="C:\Documentos\PUC\TD2\MGAD_TDD2\MGAD_Model\bin\Debug\MGAD_Model.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-10-26T20:40:23.5625525-02:00" queuing="2011-10-26T20:40:26.5421577-02:00" start="2011-10-26T20:40:26.6981580-02:00" finish="2011-10-26T20:40:45.1217903-02:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="9" executed="9" passed="9" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Dado_Uma_Avaliacao_Ao_Ser_Criada_Deve_Associar_A_Todos_Grupos_De_Comportamentos_Existentes" storage="c:\documentos\puc\td2\mgad_tdd2\mgad_test\bin\debug\mgad_test.dll" id="3db214db-b15d-849f-ddbb-5c0abb93555d">
+      <Execution id="70a3fa3c-6e06-4451-bc38-faf98fce3799" />
+      <TestMethod codeBase="C:/Documentos/PUC/TD2/MGAD_TDD2/MGAD_Test/bin/Debug/MGAD_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MGAD_Test.AvaliacaoTests, MGAD_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Dado_Uma_Avaliacao_Ao_Ser_Criada_Deve_Associar_A_Todos_Grupos_De_Comportamentos_Existentes" />
+    </UnitTest>
+    <UnitTest name="Dado_Um_Gestor_Ao_Ser_Solicitado_Deve_Exibir_Todos_Seus_Colaboradores_Subordinados" storage="c:\documentos\puc\td2\mgad_tdd2\mgad_test\bin\debug\mgad_test.dll" id="42ae5b82-3ba3-50c7-82b7-031fdce7c046">
+      <Execution id="2b09a445-46a5-4d96-b6bf-ba21fffc610b" />
+      <TestMethod codeBase="C:/Documentos/PUC/TD2/MGAD_TDD2/MGAD_Test/bin/Debug/MGAD_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MGAD_Test.GestorTests, MGAD_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Dado_Um_Gestor_Ao_Ser_Solicitado_Deve_Exibir_Todos_Seus_Colaboradores_Subordinados" />
+    </UnitTest>
+    <UnitTest name="Dado_Um_Processo_De_Avaliacao_De_Desempenho_Ao_Ser_Criado_Deve_Estar_Associado_A_Um_Gestor" storage="c:\documentos\puc\td2\mgad_tdd2\mgad_test\bin\debug\mgad_test.dll" id="27b0ac42-758b-a300-a6b1-4508d4d74d71">
+      <Execution id="216a5b1b-56fa-4bed-bef4-6810f1bff108" />
+      <TestMethod codeBase="C:/Documentos/PUC/TD2/MGAD_TDD2/MGAD_Test/bin/Debug/MGAD_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MGAD_Test.ProcessoDeAvaliacaoTests, MGAD_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Dado_Um_Processo_De_Avaliacao_De_Desempenho_Ao_Ser_Criado_Deve_Estar_Associado_A_Um_Gestor" />
+    </UnitTest>
+    <UnitTest name="Dado_Um_Processo_De_Avaliacao_De_Desempenho_Ao_Ser_Criado_Deve_Possuir_Uma_Auto_Avaliacao" storage="c:\documentos\puc\td2\mgad_tdd2\mgad_test\bin\debug\mgad_test.dll" id="4d68059a-3c7b-32c6-9d31-a1659f5a063e">
+      <Execution id="ae5d027c-1d2e-49ac-bad7-d96416bdd7b9" />
+      <TestMethod codeBase="C:/Documentos/PUC/TD2/MGAD_TDD2/MGAD_Test/bin/Debug/MGAD_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MGAD_Test.ProcessoDeAvaliacaoTests, MGAD_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Dado_Um_Processo_De_Avaliacao_De_Desempenho_Ao_Ser_Criado_Deve_Possuir_Uma_Auto_Avaliacao" />
+    </UnitTest>
+    <UnitTest name="Dado_Um_Administrador_Ao_Cadastrar_Um_Colaborador_Deve_Associar_A_Um_Gestor" storage="c:\documentos\puc\td2\mgad_tdd2\mgad_test\bin\debug\mgad_test.dll" id="b302884f-4d03-cd71-1637-583337540a68">
+      <Execution id="09149b4a-7db6-4444-89b0-6270a34dca2d" />
+      <TestMethod codeBase="C:/Documentos/PUC/TD2/MGAD_TDD2/MGAD_Test/bin/Debug/MGAD_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MGAD_Test.AdministradorTests, MGAD_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Dado_Um_Administrador_Ao_Cadastrar_Um_Colaborador_Deve_Associar_A_Um_Gestor" />
+    </UnitTest>
+    <UnitTest name="Dada_Uma_Avaliacao_Ao_Ser_Criada_Deve_Possuir_Status_Em_Aberto" storage="c:\documentos\puc\td2\mgad_tdd2\mgad_test\bin\debug\mgad_test.dll" id="994cc82c-a6c1-7fcc-8ed5-0bfc4f8aeb21">
+      <Execution id="655f0ec9-86f2-4c9d-825e-316f768dc3eb" />
+      <TestMethod codeBase="C:/Documentos/PUC/TD2/MGAD_TDD2/MGAD_Test/bin/Debug/MGAD_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MGAD_Test.AvaliacaoTests, MGAD_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Dada_Uma_Avaliacao_Ao_Ser_Criada_Deve_Possuir_Status_Em_Aberto" />
+    </UnitTest>
+    <UnitTest name="Dado_Um_Processo_De_Avaliacao_De_Desempenho_Ao_Ser_Criado_Deve_Associar_Tres_Avaliacoes" storage="c:\documentos\puc\td2\mgad_tdd2\mgad_test\bin\debug\mgad_test.dll" id="4f68d635-d8f4-19b3-87d6-a25e7b7a182f">
+      <Execution id="aab8b068-aff8-4d7a-b8cd-6ac255a46f68" />
+      <TestMethod codeBase="C:/Documentos/PUC/TD2/MGAD_TDD2/MGAD_Test/bin/Debug/MGAD_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MGAD_Test.ProcessoDeAvaliacaoTests, MGAD_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Dado_Um_Processo_De_Avaliacao_De_Desempenho_Ao_Ser_Criado_Deve_Associar_Tres_Avaliacoes" />
+    </UnitTest>
+    <UnitTest name="Dado_Um_Processo_De_Avaliacao_De_Desempenho_Ao_Ser_Criado_Deve_Possuir_Uma_Avaliacao_Do_Gestor" storage="c:\documentos\puc\td2\mgad_tdd2\mgad_test\bin\debug\mgad_test.dll" id="0d1ada27-015d-3e82-a33c-625242a7e1d6">
+      <Execution id="66f172c8-2e13-4e51-8177-52b3db2ea419" />
+      <TestMethod codeBase="C:/Documentos/PUC/TD2/MGAD_TDD2/MGAD_Test/bin/Debug/MGAD_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MGAD_Test.ProcessoDeAvaliacaoTests, MGAD_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Dado_Um_Processo_De_Avaliacao_De_Desempenho_Ao_Ser_Criado_Deve_Possuir_Uma_Avaliacao_Do_Gestor" />
+    </UnitTest>
+    <UnitTest name="Dado_Um_Comportamento_Ao_Ser_Criado_Deve_Associar_A_Algum_Grupo_De_Comportamentos" storage="c:\documentos\puc\td2\mgad_tdd2\mgad_test\bin\debug\mgad_test.dll" id="08e53e63-0c77-376a-664d-7136d9762ca2">
+      <Execution id="d4849bf9-ff6b-4a5d-b132-ae66f1cf9a5e" />
+      <TestMethod codeBase="C:/Documentos/PUC/TD2/MGAD_TDD2/MGAD_Test/bin/Debug/MGAD_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MGAD_Test.ComportamentoTests, MGAD_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Dado_Um_Comportamento_Ao_Ser_Criado_Deve_Associar_A_Algum_Grupo_De_Comportamentos" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="08e53e63-0c77-376a-664d-7136d9762ca2" executionId="d4849bf9-ff6b-4a5d-b132-ae66f1cf9a5e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0d1ada27-015d-3e82-a33c-625242a7e1d6" executionId="66f172c8-2e13-4e51-8177-52b3db2ea419" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="27b0ac42-758b-a300-a6b1-4508d4d74d71" executionId="216a5b1b-56fa-4bed-bef4-6810f1bff108" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3db214db-b15d-849f-ddbb-5c0abb93555d" executionId="70a3fa3c-6e06-4451-bc38-faf98fce3799" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="42ae5b82-3ba3-50c7-82b7-031fdce7c046" executionId="2b09a445-46a5-4d96-b6bf-ba21fffc610b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4d68059a-3c7b-32c6-9d31-a1659f5a063e" executionId="ae5d027c-1d2e-49ac-bad7-d96416bdd7b9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4f68d635-d8f4-19b3-87d6-a25e7b7a182f" executionId="aab8b068-aff8-4d7a-b8cd-6ac255a46f68" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="994cc82c-a6c1-7fcc-8ed5-0bfc4f8aeb21" executionId="655f0ec9-86f2-4c9d-825e-316f768dc3eb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b302884f-4d03-cd71-1637-583337540a68" executionId="09149b4a-7db6-4444-89b0-6270a34dca2d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="d4849bf9-ff6b-4a5d-b132-ae66f1cf9a5e" testId="08e53e63-0c77-376a-664d-7136d9762ca2" testName="Dado_Um_Comportamento_Ao_Ser_Criado_Deve_Associar_A_Algum_Grupo_De_Comportamentos" computerName="NDANIEL" duration="00:00:05.0471640" startTime="2011-10-26T20:40:26.7605581-02:00" endTime="2011-10-26T20:40:32.5013682-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d4849bf9-ff6b-4a5d-b132-ae66f1cf9a5e">
+    </UnitTestResult>
+    <UnitTestResult executionId="66f172c8-2e13-4e51-8177-52b3db2ea419" testId="0d1ada27-015d-3e82-a33c-625242a7e1d6" testName="Dado_Um_Processo_De_Avaliacao_De_Desempenho_Ao_Ser_Criado_Deve_Possuir_Uma_Avaliacao_Do_Gestor" computerName="NDANIEL" duration="00:00:03.0271979" startTime="2011-10-26T20:40:32.5013682-02:00" endTime="2011-10-26T20:40:35.5433735-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="66f172c8-2e13-4e51-8177-52b3db2ea419">
+    </UnitTestResult>
+    <UnitTestResult executionId="216a5b1b-56fa-4bed-bef4-6810f1bff108" testId="27b0ac42-758b-a300-a6b1-4508d4d74d71" testName="Dado_Um_Processo_De_Avaliacao_De_Desempenho_Ao_Ser_Criado_Deve_Estar_Associado_A_Um_Gestor" computerName="NDANIEL" duration="00:00:01.8299684" startTime="2011-10-26T20:40:35.5433735-02:00" endTime="2011-10-26T20:40:37.3841767-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="216a5b1b-56fa-4bed-bef4-6810f1bff108">
+    </UnitTestResult>
+    <UnitTestResult executionId="70a3fa3c-6e06-4451-bc38-faf98fce3799" testId="3db214db-b15d-849f-ddbb-5c0abb93555d" testName="Dado_Uma_Avaliacao_Ao_Ser_Criada_Deve_Associar_A_Todos_Grupos_De_Comportamentos_Existentes" computerName="NDANIEL" duration="00:00:02.3314237" startTime="2011-10-26T20:40:37.3841767-02:00" endTime="2011-10-26T20:40:39.7241809-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="70a3fa3c-6e06-4451-bc38-faf98fce3799">
+    </UnitTestResult>
+    <UnitTestResult executionId="2b09a445-46a5-4d96-b6bf-ba21fffc610b" testId="42ae5b82-3ba3-50c7-82b7-031fdce7c046" testName="Dado_Um_Gestor_Ao_Ser_Solicitado_Deve_Exibir_Todos_Seus_Colaboradores_Subordinados" computerName="NDANIEL" duration="00:00:00.9102392" startTime="2011-10-26T20:40:39.7397809-02:00" endTime="2011-10-26T20:40:40.6445825-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2b09a445-46a5-4d96-b6bf-ba21fffc610b">
+    </UnitTestResult>
+    <UnitTestResult executionId="ae5d027c-1d2e-49ac-bad7-d96416bdd7b9" testId="4d68059a-3c7b-32c6-9d31-a1659f5a063e" testName="Dado_Um_Processo_De_Avaliacao_De_Desempenho_Ao_Ser_Criado_Deve_Possuir_Uma_Auto_Avaliacao" computerName="NDANIEL" duration="00:00:01.1962245" startTime="2011-10-26T20:40:40.6445825-02:00" endTime="2011-10-26T20:40:41.8613846-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ae5d027c-1d2e-49ac-bad7-d96416bdd7b9">
+    </UnitTestResult>
+    <UnitTestResult executionId="aab8b068-aff8-4d7a-b8cd-6ac255a46f68" testId="4f68d635-d8f4-19b3-87d6-a25e7b7a182f" testName="Dado_Um_Processo_De_Avaliacao_De_Desempenho_Ao_Ser_Criado_Deve_Associar_Tres_Avaliacoes" computerName="NDANIEL" duration="00:00:01.1836694" startTime="2011-10-26T20:40:41.8613846-02:00" endTime="2011-10-26T20:40:43.0469867-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="aab8b068-aff8-4d7a-b8cd-6ac255a46f68">
+    </UnitTestResult>
+    <UnitTestResult executionId="655f0ec9-86f2-4c9d-825e-316f768dc3eb" testId="994cc82c-a6c1-7fcc-8ed5-0bfc4f8aeb21" testName="Dada_Uma_Avaliacao_Ao_Ser_Criada_Deve_Possuir_Status_Em_Aberto" computerName="NDANIEL" duration="00:00:01.4531586" startTime="2011-10-26T20:40:43.0469867-02:00" endTime="2011-10-26T20:40:44.5133893-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="655f0ec9-86f2-4c9d-825e-316f768dc3eb">
+    </UnitTestResult>
+    <UnitTestResult executionId="09149b4a-7db6-4444-89b0-6270a34dca2d" testId="b302884f-4d03-cd71-1637-583337540a68" testName="Dado_Um_Administrador_Ao_Cadastrar_Um_Colaborador_Deve_Associar_A_Um_Gestor" computerName="NDANIEL" duration="00:00:00.4734046" startTime="2011-10-26T20:40:44.5757894-02:00" endTime="2011-10-26T20:40:45.0437902-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="09149b4a-7db6-4444-89b0-6270a34dca2d">
+    </UnitTestResult>
+  </Results>
+</TestRun>

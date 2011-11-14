@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="0b874c6e-32e8-4748-be6c-fcf9b0e155c3" name="DANIEL@NDANIEL 2011-10-25 11:38:08" runUser="NDANIEL\DANIEL" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="00656b24-79bd-4b63-882c-314f1b4727c1">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="DANIEL_NDANIEL 2011-10-25 11_38_08">
+      <DeploymentItem filename="C:\Documentos\PUC\TD2\MGAD_TDD2\MGAD_Model\bin\Debug\MGAD_Model.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-10-25T11:38:08.2476337-02:00" queuing="2011-10-25T11:38:09.8807271-02:00" start="2011-10-25T11:38:09.9557314-02:00" finish="2011-10-25T11:38:11.9778471-02:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="7" executed="7" passed="3" error="0" failed="4" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Dado_Um_Processo_De_Avaliacao_De_Desempenho_Ao_Ser_Criado_Deve_Possuir_Uma_Auto_Avaliacao" storage="c:\documentos\puc\td2\mgad_tdd2\mgad_test\bin\debug\mgad_test.dll" id="4d68059a-3c7b-32c6-9d31-a1659f5a063e">
+      <Execution id="f30a213f-5d3e-41cb-b4af-4a4d37026a03" />
+      <TestMethod codeBase="C:/Documentos/PUC/TD2/MGAD_TDD2/MGAD_Test/bin/Debug/MGAD_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MGAD_Test.ProcessoDeAvaliacaoTests, MGAD_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Dado_Um_Processo_De_Avaliacao_De_Desempenho_Ao_Ser_Criado_Deve_Possuir_Uma_Auto_Avaliacao" />
+    </UnitTest>
+    <UnitTest name="Dado_Um_Gestor_Ao_Ser_Solicitado_Deve_Exibir_Todos_Seus_Colaboradores_Subordinados" storage="c:\documentos\puc\td2\mgad_tdd2\mgad_test\bin\debug\mgad_test.dll" id="42ae5b82-3ba3-50c7-82b7-031fdce7c046">
+      <Execution id="59d2ec3f-df4b-4336-ba62-53f28f7e70d4" />
+      <TestMethod codeBase="C:/Documentos/PUC/TD2/MGAD_TDD2/MGAD_Test/bin/Debug/MGAD_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MGAD_Test.GestorTests, MGAD_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Dado_Um_Gestor_Ao_Ser_Solicitado_Deve_Exibir_Todos_Seus_Colaboradores_Subordinados" />
+    </UnitTest>
+    <UnitTest name="Dado_Uma_Avaliacao_Ao_Ser_Criada_Deve_Associar_A_Todos_Grupos_De_Comportamentos_Existentes" storage="c:\documentos\puc\td2\mgad_tdd2\mgad_test\bin\debug\mgad_test.dll" id="3db214db-b15d-849f-ddbb-5c0abb93555d">
+      <Execution id="d97ba5e2-e881-4d40-bcf0-1c8a9bf3fde5" />
+      <TestMethod codeBase="C:/Documentos/PUC/TD2/MGAD_TDD2/MGAD_Test/bin/Debug/MGAD_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MGAD_Test.AvaliacaoTests, MGAD_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Dado_Uma_Avaliacao_Ao_Ser_Criada_Deve_Associar_A_Todos_Grupos_De_Comportamentos_Existentes" />
+    </UnitTest>
+    <UnitTest name="Dado_Um_Administrador_Ao_Cadastrar_Um_Colaborador_Deve_Associar_A_Um_Gestor" storage="c:\documentos\puc\td2\mgad_tdd2\mgad_test\bin\debug\mgad_test.dll" id="b302884f-4d03-cd71-1637-583337540a68">
+      <Execution id="68b2cce5-0241-4e32-93fa-e5408001433d" />
+      <TestMethod codeBase="C:/Documentos/PUC/TD2/MGAD_TDD2/MGAD_Test/bin/Debug/MGAD_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MGAD_Test.AdministradorTests, MGAD_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Dado_Um_Administrador_Ao_Cadastrar_Um_Colaborador_Deve_Associar_A_Um_Gestor" />
+    </UnitTest>
+    <UnitTest name="Dado_Um_Processo_De_Avaliacao_De_Desempenho_Ao_Ser_Criado_Deve_Associar_Tres_Avaliacoes" storage="c:\documentos\puc\td2\mgad_tdd2\mgad_test\bin\debug\mgad_test.dll" id="4f68d635-d8f4-19b3-87d6-a25e7b7a182f">
+      <Execution id="65ec4748-78fb-4730-be87-4816d1fa47be" />
+      <TestMethod codeBase="C:/Documentos/PUC/TD2/MGAD_TDD2/MGAD_Test/bin/Debug/MGAD_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MGAD_Test.ProcessoDeAvaliacaoTests, MGAD_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Dado_Um_Processo_De_Avaliacao_De_Desempenho_Ao_Ser_Criado_Deve_Associar_Tres_Avaliacoes" />
+    </UnitTest>
+    <UnitTest name="Dado_Um_Processo_De_Avaliacao_De_Desempenho_Ao_Ser_Criado_Deve_Possuir_Uma_Avaliacao_Do_Gestor" storage="c:\documentos\puc\td2\mgad_tdd2\mgad_test\bin\debug\mgad_test.dll" id="0d1ada27-015d-3e82-a33c-625242a7e1d6">
+      <Execution id="c08bb777-48fd-4329-b2aa-40ed86b57ed4" />
+      <TestMethod codeBase="C:/Documentos/PUC/TD2/MGAD_TDD2/MGAD_Test/bin/Debug/MGAD_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MGAD_Test.ProcessoDeAvaliacaoTests, MGAD_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Dado_Um_Processo_De_Avaliacao_De_Desempenho_Ao_Ser_Criado_Deve_Possuir_Uma_Avaliacao_Do_Gestor" />
+    </UnitTest>
+    <UnitTest name="Dado_Um_Comportamento_Ao_Ser_Criado_Deve_Associar_A_Algum_Grupo_De_Comportamentos" storage="c:\documentos\puc\td2\mgad_tdd2\mgad_test\bin\debug\mgad_test.dll" id="08e53e63-0c77-376a-664d-7136d9762ca2">
+      <Execution id="2f46dcb0-73b7-4147-aef7-9e7e74ed6328" />
+      <TestMethod codeBase="C:/Documentos/PUC/TD2/MGAD_TDD2/MGAD_Test/bin/Debug/MGAD_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MGAD_Test.ComportamentoTests, MGAD_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Dado_Um_Comportamento_Ao_Ser_Criado_Deve_Associar_A_Algum_Grupo_De_Comportamentos" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="08e53e63-0c77-376a-664d-7136d9762ca2" executionId="2f46dcb0-73b7-4147-aef7-9e7e74ed6328" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0d1ada27-015d-3e82-a33c-625242a7e1d6" executionId="c08bb777-48fd-4329-b2aa-40ed86b57ed4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3db214db-b15d-849f-ddbb-5c0abb93555d" executionId="d97ba5e2-e881-4d40-bcf0-1c8a9bf3fde5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="42ae5b82-3ba3-50c7-82b7-031fdce7c046" executionId="59d2ec3f-df4b-4336-ba62-53f28f7e70d4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4d68059a-3c7b-32c6-9d31-a1659f5a063e" executionId="f30a213f-5d3e-41cb-b4af-4a4d37026a03" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4f68d635-d8f4-19b3-87d6-a25e7b7a182f" executionId="65ec4748-78fb-4730-be87-4816d1fa47be" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b302884f-4d03-cd71-1637-583337540a68" executionId="68b2cce5-0241-4e32-93fa-e5408001433d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="2f46dcb0-73b7-4147-aef7-9e7e74ed6328" testId="08e53e63-0c77-376a-664d-7136d9762ca2" testName="Dado_Um_Comportamento_Ao_Ser_Criado_Deve_Associar_A_Algum_Grupo_De_Comportamentos" computerName="NDANIEL" duration="00:00:00.5416150" startTime="2011-10-25T11:38:09.9927335-02:00" endTime="2011-10-25T11:38:10.8607832-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2f46dcb0-73b7-4147-aef7-9e7e74ed6328">
+    </UnitTestResult>
+    <UnitTestResult executionId="c08bb777-48fd-4329-b2aa-40ed86b57ed4" testId="0d1ada27-015d-3e82-a33c-625242a7e1d6" testName="Dado_Um_Processo_De_Avaliacao_De_Desempenho_Ao_Ser_Criado_Deve_Possuir_Uma_Avaliacao_Do_Gestor" computerName="NDANIEL" duration="00:00:00.2780007" startTime="2011-10-25T11:38:10.8657835-02:00" endTime="2011-10-25T11:38:11.1487997-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c08bb777-48fd-4329-b2aa-40ed86b57ed4">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method MGAD_Test.ProcessoDeAvaliacaoTests.Dado_Um_Processo_De_Avaliacao_De_Desempenho_Ao_Ser_Criado_Deve_Possuir_Uma_Avaliacao_Do_Gestor threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>    at MGAD_Model.ProcessoDeAvaliacaoDeDesempenhoDAO.Inserir(ProcessoDeAvaliacaoDeDesempenho processoDeAvaliacaoDeDesempenho) in C:\Documentos\PUC\TD2\MGAD_TDD2\MGAD_Model\ProcessoDeAvaliacaoDeDesempenhoDAO.cs:line 40
+   at MGAD_Model.ProcessoDeAvaliacaoDeDesempenhoDAO.Salvar(ProcessoDeAvaliacaoDeDesempenho processoDeAvaliacaoDeDesempenho) in C:\Documentos\PUC\TD2\MGAD_TDD2\MGAD_Model\ProcessoDeAvaliacaoDeDesempenhoDAO.cs:line 18
+   at MGAD_Model.AvaliacaoDAO.Salvar(Avaliacao avaliacao) in C:\Documentos\PUC\TD2\MGAD_TDD2\MGAD_Model\AvaliacaoDAO.cs:line 15
+   at MGAD_Model.Avaliacao.CriarAvaliacao(String tipo, ProcessoDeAvaliacaoDeDesempenho processoDeAvaliacaoDeDesempenho) in C:\Documentos\PUC\TD2\MGAD_TDD2\MGAD_Model\Avaliacao.cs:line 31
+   at MGAD_Model.ProcessoDeAvaliacaoDeDesempenho.CriarProcessoDeAvaliacaoDeDesempenho(String nome) in C:\Documentos\PUC\TD2\MGAD_TDD2\MGAD_Model\ProcessoDeAvaliacaoDeDesempenho.cs:line 35
+   at MGAD_Model.Administrador.CriarProcessoDeAvaliacaoDeDesempenho(String nome) in C:\Documentos\PUC\TD2\MGAD_TDD2\MGAD_Model\Administrador.cs:line 22
+   at MGAD_Test.ProcessoDeAvaliacaoTests.Dado_Um_Processo_De_Avaliacao_De_Desempenho_Ao_Ser_Criado_Deve_Possuir_Uma_Avaliacao_Do_Gestor() in C:\Documentos\PUC\TD2\MGAD_TDD2\MGAD_Test\ProcessoDeAvaliacaoTests.cs:line 41
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d97ba5e2-e881-4d40-bcf0-1c8a9bf3fde5" testId="3db214db-b15d-849f-ddbb-5c0abb93555d" testName="Dado_Uma_Avaliacao_Ao_Ser_Criada_Deve_Associar_A_Todos_Grupos_De_Comportamentos_Existentes" computerName="NDANIEL" duration="00:00:00.1885543" startTime="2011-10-25T11:38:11.1578002-02:00" endTime="2011-10-25T11:38:11.3518113-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d97ba5e2-e881-4d40-bcf0-1c8a9bf3fde5">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method MGAD_Test.AvaliacaoTests.Dado_Uma_Avaliacao_Ao_Ser_Criada_Deve_Associar_A_Todos_Grupos_De_Comportamentos_Existentes threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>    at MGAD_Model.ProcessoDeAvaliacaoDeDesempenhoDAO.Inserir(ProcessoDeAvaliacaoDeDesempenho processoDeAvaliacaoDeDesempenho) in C:\Documentos\PUC\TD2\MGAD_TDD2\MGAD_Model\ProcessoDeAvaliacaoDeDesempenhoDAO.cs:line 40
+   at MGAD_Model.ProcessoDeAvaliacaoDeDesempenhoDAO.Salvar(ProcessoDeAvaliacaoDeDesempenho processoDeAvaliacaoDeDesempenho) in C:\Documentos\PUC\TD2\MGAD_TDD2\MGAD_Model\ProcessoDeAvaliacaoDeDesempenhoDAO.cs:line 18
+   at MGAD_Model.AvaliacaoDAO.Salvar(Avaliacao avaliacao) in C:\Documentos\PUC\TD2\MGAD_TDD2\MGAD_Model\AvaliacaoDAO.cs:line 15
+   at MGAD_Model.Avaliacao.CriarAvaliacao(String tipo, ProcessoDeAvaliacaoDeDesempenho processoDeAvaliacaoDeDesempenho) in C:\Documentos\PUC\TD2\MGAD_TDD2\MGAD_Model\Avaliacao.cs:line 31
+   at MGAD_Model.ProcessoDeAvaliacaoDeDesempenho.CriarProcessoDeAvaliacaoDeDesempenho(String nome) in C:\Documentos\PUC\TD2\MGAD_TDD2\MGAD_Model\ProcessoDeAvaliacaoDeDesempenho.cs:line 35
+   at MGAD_Model.Administrador.CriarProcessoDeAvaliacaoDeDesempenho(String nome) in C:\Documentos\PUC\TD2\MGAD_TDD2\MGAD_Model\Administrador.cs:line 22
+   at MGAD_Test.AvaliacaoTests.Dado_Uma_Avaliacao_Ao_Ser_Criada_Deve_Associar_A_Todos_Grupos_De_Comportamentos_Existentes() in C:\Documentos\PUC\TD2\MGAD_TDD2\MGAD_Test\AvaliacaoTests.cs:line 21
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="59d2ec3f-df4b-4336-ba62-53f28f7e70d4" testId="42ae5b82-3ba3-50c7-82b7-031fdce7c046" testName="Dado_Um_Gestor_Ao_Ser_Solicitado_Deve_Exibir_Todos_Seus_Colaboradores_Subordinados" computerName="NDANIEL" duration="00:00:00.2584992" startTime="2011-10-25T11:38:11.3558115-02:00" endTime="2011-10-25T11:38:11.6168264-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="59d2ec3f-df4b-4336-ba62-53f28f7e70d4">
+    </UnitTestResult>
+    <UnitTestResult executionId="f30a213f-5d3e-41cb-b4af-4a4d37026a03" testId="4d68059a-3c7b-32c6-9d31-a1659f5a063e" testName="Dado_Um_Processo_De_Avaliacao_De_Desempenho_Ao_Ser_Criado_Deve_Possuir_Uma_Auto_Avaliacao" computerName="NDANIEL" duration="00:00:00.0958299" startTime="2011-10-25T11:38:11.6208267-02:00" endTime="2011-10-25T11:38:11.7198323-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f30a213f-5d3e-41cb-b4af-4a4d37026a03">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method MGAD_Test.ProcessoDeAvaliacaoTests.Dado_Um_Processo_De_Avaliacao_De_Desempenho_Ao_Ser_Criado_Deve_Possuir_Uma_Auto_Avaliacao threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>    at MGAD_Model.ProcessoDeAvaliacaoDeDesempenhoDAO.Inserir(ProcessoDeAvaliacaoDeDesempenho processoDeAvaliacaoDeDesempenho) in C:\Documentos\PUC\TD2\MGAD_TDD2\MGAD_Model\ProcessoDeAvaliacaoDeDesempenhoDAO.cs:line 40
+   at MGAD_Model.ProcessoDeAvaliacaoDeDesempenhoDAO.Salvar(ProcessoDeAvaliacaoDeDesempenho processoDeAvaliacaoDeDesempenho) in C:\Documentos\PUC\TD2\MGAD_TDD2\MGAD_Model\ProcessoDeAvaliacaoDeDesempenhoDAO.cs:line 18
+   at MGAD_Model.AvaliacaoDAO.Salvar(Avaliacao avaliacao) in C:\Documentos\PUC\TD2\MGAD_TDD2\MGAD_Model\AvaliacaoDAO.cs:line 15
+   at MGAD_Model.Avaliacao.CriarAvaliacao(String tipo, ProcessoDeAvaliacaoDeDesempenho processoDeAvaliacaoDeDesempenho) in C:\Documentos\PUC\TD2\MGAD_TDD2\MGAD_Model\Avaliacao.cs:line 31
+   at MGAD_Model.ProcessoDeAvaliacaoDeDesempenho.CriarProcessoDeAvaliacaoDeDesempenho(String nome) in C:\Documentos\PUC\TD2\MGAD_TDD2\MGAD_Model\ProcessoDeAvaliacaoDeDesempenho.cs:line 35
+   at MGAD_Model.Administrador.CriarProcessoDeAvaliacaoDeDesempenho(String nome) in C:\Documentos\PUC\TD2\MGAD_TDD2\MGAD_Model\Administrador.cs:line 22
+   at MGAD_Test.ProcessoDeAvaliacaoTests.Dado_Um_Processo_De_Avaliacao_De_Desempenho_Ao_Ser_Criado_Deve_Possuir_Uma_Auto_Avaliacao() in C:\Documentos\PUC\TD2\MGAD_TDD2\MGAD_Test\ProcessoDeAvaliacaoTests.cs:line 30
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="65ec4748-78fb-4730-be87-4816d1fa47be" testId="4f68d635-d8f4-19b3-87d6-a25e7b7a182f" testName="Dado_Um_Processo_De_Avaliacao_De_Desempenho_Ao_Ser_Criado_Deve_Associar_Tres_Avaliacoes" computerName="NDANIEL" duration="00:00:00.0931805" startTime="2011-10-25T11:38:11.7238326-02:00" endTime="2011-10-25T11:38:11.8268384-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="65ec4748-78fb-4730-be87-4816d1fa47be">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method MGAD_Test.ProcessoDeAvaliacaoTests.Dado_Um_Processo_De_Avaliacao_De_Desempenho_Ao_Ser_Criado_Deve_Associar_Tres_Avaliacoes threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>    at MGAD_Model.ProcessoDeAvaliacaoDeDesempenhoDAO.Inserir(ProcessoDeAvaliacaoDeDesempenho processoDeAvaliacaoDeDesempenho) in C:\Documentos\PUC\TD2\MGAD_TDD2\MGAD_Model\ProcessoDeAvaliacaoDeDesempenhoDAO.cs:line 40
+   at MGAD_Model.ProcessoDeAvaliacaoDeDesempenhoDAO.Salvar(ProcessoDeAvaliacaoDeDesempenho processoDeAvaliacaoDeDesempenho) in C:\Documentos\PUC\TD2\MGAD_TDD2\MGAD_Model\ProcessoDeAvaliacaoDeDesempenhoDAO.cs:line 18
+   at MGAD_Model.AvaliacaoDAO.Salvar(Avaliacao avaliacao) in C:\Documentos\PUC\TD2\MGAD_TDD2\MGAD_Model\AvaliacaoDAO.cs:line 15
+   at MGAD_Model.Avaliacao.CriarAvaliacao(String tipo, ProcessoDeAvaliacaoDeDesempenho processoDeAvaliacaoDeDesempenho) in C:\Documentos\PUC\TD2\MGAD_TDD2\MGAD_Model\Avaliacao.cs:line 31
+   at MGAD_Model.ProcessoDeAvaliacaoDeDesempenho.CriarProcessoDeAvaliacaoDeDesempenho(String nome) in C:\Documentos\PUC\TD2\MGAD_TDD2\MGAD_Model\ProcessoDeAvaliacaoDeDesempenho.cs:line 35
+   at MGAD_Model.Administrador.CriarProcessoDeAvaliacaoDeDesempenho(String nome) in C:\Documentos\PUC\TD2\MGAD_TDD2\MGAD_Model\Administrador.cs:line 22
+   at MGAD_Test.ProcessoDeAvaliacaoTests.Dado_Um_Processo_De_Avaliacao_De_Desempenho_Ao_Ser_Criado_Deve_Associar_Tres_Avaliacoes() in C:\Documentos\PUC\TD2\MGAD_TDD2\MGAD_Test\ProcessoDeAvaliacaoTests.cs:line 19
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="68b2cce5-0241-4e32-93fa-e5408001433d" testId="b302884f-4d03-cd71-1637-583337540a68" testName="Dado_Um_Administrador_Ao_Cadastrar_Um_Colaborador_Deve_Associar_A_Um_Gestor" computerName="NDANIEL" duration="00:00:00.0791349" startTime="2011-10-25T11:38:11.8348389-02:00" endTime="2011-10-25T11:38:11.9178436-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="68b2cce5-0241-4e32-93fa-e5408001433d">
+    </UnitTestResult>
+  </Results>
+</TestRun>

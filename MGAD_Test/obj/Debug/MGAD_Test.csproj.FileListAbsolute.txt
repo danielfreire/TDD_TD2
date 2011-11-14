@@ -1,0 +1,9 @@
+C:\Documentos\PUC\TD2\MGAD_TDD2\MGAD_Test\bin\Debug\MGAD_Test.dll
+C:\Documentos\PUC\TD2\MGAD_TDD2\MGAD_Test\bin\Debug\MGAD_Test.pdb
+C:\Documentos\PUC\TD2\MGAD_TDD2\MGAD_Test\obj\Debug\ResolveAssemblyReference.cache
+C:\Documentos\PUC\TD2\MGAD_TDD2\MGAD_Test\obj\Debug\MGAD_Test.dll
+C:\Documentos\PUC\TD2\MGAD_TDD2\MGAD_Test\obj\Debug\MGAD_Test.pdb
+C:\Documentos\PUC\TD2\MGAD_TDD2\MGAD_Test\bin\Debug\MGAD_Model.dll
+C:\Documentos\PUC\TD2\MGAD_TDD2\MGAD_Test\bin\Debug\MGAD_Model.pdb
+C:\Documentos\PUC\TD2\MGAD_TDD2\MGAD_Test\bin\Debug\MGAD_Persistence.dll
+C:\Documentos\PUC\TD2\MGAD_TDD2\MGAD_Test\bin\Debug\MGAD_Persistence.pdb

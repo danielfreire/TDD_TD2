@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="7ed30097-6beb-4d14-99a5-ec87a20420b7" name="DANIEL@NDANIEL 2011-11-14 09:15:10" runUser="NDANIEL\DANIEL" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="00656b24-79bd-4b63-882c-314f1b4727c1">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="DANIEL_NDANIEL 2011-11-14 09_15_10">
+      <DeploymentItem filename="C:\Documentos\PUC\TD2\MGAD_TDD2\MGAD_Model\bin\Debug\MGAD_Model.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-11-14T09:15:10.9561750-02:00" queuing="2011-11-14T09:15:11.7562207-02:00" start="2011-11-14T09:15:11.8672271-02:00" finish="2011-11-14T09:17:31.4832126-02:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="9" executed="9" error="0" failed="9" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Dado_Uma_Avaliacao_Ao_Ser_Criada_Deve_Associar_A_Todos_Grupos_De_Comportamentos_Existentes" storage="c:\documentos\puc\td2\mgad_tdd2\mgad_test\bin\debug\mgad_test.dll" id="3db214db-b15d-849f-ddbb-5c0abb93555d">
+      <Execution id="d22e01bf-f5c2-4ecc-a4b6-baf43fb1706b" />
+      <TestMethod codeBase="C:/Documentos/PUC/TD2/MGAD_TDD2/MGAD_Test/bin/Debug/MGAD_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MGAD_Test.AvaliacaoTests, MGAD_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Dado_Uma_Avaliacao_Ao_Ser_Criada_Deve_Associar_A_Todos_Grupos_De_Comportamentos_Existentes" />
+    </UnitTest>
+    <UnitTest name="Dado_Um_Gestor_Ao_Ser_Solicitado_Deve_Exibir_Todos_Seus_Colaboradores_Subordinados" storage="c:\documentos\puc\td2\mgad_tdd2\mgad_test\bin\debug\mgad_test.dll" id="42ae5b82-3ba3-50c7-82b7-031fdce7c046">
+      <Execution id="2a2e8d65-b57b-487a-8775-2142c297db6b" />
+      <TestMethod codeBase="C:/Documentos/PUC/TD2/MGAD_TDD2/MGAD_Test/bin/Debug/MGAD_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MGAD_Test.GestorTests, MGAD_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Dado_Um_Gestor_Ao_Ser_Solicitado_Deve_Exibir_Todos_Seus_Colaboradores_Subordinados" />
+    </UnitTest>
+    <UnitTest name="Dado_Um_Processo_De_Avaliacao_De_Desempenho_Ao_Ser_Criado_Deve_Estar_Associado_A_Um_Gestor" storage="c:\documentos\puc\td2\mgad_tdd2\mgad_test\bin\debug\mgad_test.dll" id="27b0ac42-758b-a300-a6b1-4508d4d74d71">
+      <Execution id="19e91041-5f1a-4d9f-b5df-b1e83b8d5cbd" />
+      <TestMethod codeBase="C:/Documentos/PUC/TD2/MGAD_TDD2/MGAD_Test/bin/Debug/MGAD_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MGAD_Test.ProcessoDeAvaliacaoTests, MGAD_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Dado_Um_Processo_De_Avaliacao_De_Desempenho_Ao_Ser_Criado_Deve_Estar_Associado_A_Um_Gestor" />
+    </UnitTest>
+    <UnitTest name="Dado_Um_Processo_De_Avaliacao_De_Desempenho_Ao_Ser_Criado_Deve_Possuir_Uma_Auto_Avaliacao" storage="c:\documentos\puc\td2\mgad_tdd2\mgad_test\bin\debug\mgad_test.dll" id="4d68059a-3c7b-32c6-9d31-a1659f5a063e">
+      <Execution id="f829d665-5a27-42ab-b831-0f681fff4155" />
+      <TestMethod codeBase="C:/Documentos/PUC/TD2/MGAD_TDD2/MGAD_Test/bin/Debug/MGAD_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MGAD_Test.ProcessoDeAvaliacaoTests, MGAD_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Dado_Um_Processo_De_Avaliacao_De_Desempenho_Ao_Ser_Criado_Deve_Possuir_Uma_Auto_Avaliacao" />
+    </UnitTest>
+    <UnitTest name="Dado_Um_Administrador_Ao_Cadastrar_Um_Colaborador_Deve_Associar_A_Um_Gestor" storage="c:\documentos\puc\td2\mgad_tdd2\mgad_test\bin\debug\mgad_test.dll" id="b302884f-4d03-cd71-1637-583337540a68">
+      <Execution id="e1677593-5439-455e-9719-ff729ee7fee4" />
+      <TestMethod codeBase="C:/Documentos/PUC/TD2/MGAD_TDD2/MGAD_Test/bin/Debug/MGAD_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MGAD_Test.AdministradorTests, MGAD_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Dado_Um_Administrador_Ao_Cadastrar_Um_Colaborador_Deve_Associar_A_Um_Gestor" />
+    </UnitTest>
+    <UnitTest name="Dada_Uma_Avaliacao_Ao_Ser_Criada_Deve_Possuir_Status_Em_Aberto" storage="c:\documentos\puc\td2\mgad_tdd2\mgad_test\bin\debug\mgad_test.dll" id="994cc82c-a6c1-7fcc-8ed5-0bfc4f8aeb21">
+      <Execution id="1716b152-28b5-4faf-b87f-e6dab2dbe538" />
+      <TestMethod codeBase="C:/Documentos/PUC/TD2/MGAD_TDD2/MGAD_Test/bin/Debug/MGAD_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MGAD_Test.AvaliacaoTests, MGAD_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Dada_Uma_Avaliacao_Ao_Ser_Criada_Deve_Possuir_Status_Em_Aberto" />
+    </UnitTest>
+    <UnitTest name="Dado_Um_Processo_De_Avaliacao_De_Desempenho_Ao_Ser_Criado_Deve_Associar_Tres_Avaliacoes" storage="c:\documentos\puc\td2\mgad_tdd2\mgad_test\bin\debug\mgad_test.dll" id="4f68d635-d8f4-19b3-87d6-a25e7b7a182f">
+      <Execution id="e8a4a0dd-0b46-45a9-9792-213a5a244660" />
+      <TestMethod codeBase="C:/Documentos/PUC/TD2/MGAD_TDD2/MGAD_Test/bin/Debug/MGAD_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MGAD_Test.ProcessoDeAvaliacaoTests, MGAD_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Dado_Um_Processo_De_Avaliacao_De_Desempenho_Ao_Ser_Criado_Deve_Associar_Tres_Avaliacoes" />
+    </UnitTest>
+    <UnitTest name="Dado_Um_Processo_De_Avaliacao_De_Desempenho_Ao_Ser_Criado_Deve_Possuir_Uma_Avaliacao_Do_Gestor" storage="c:\documentos\puc\td2\mgad_tdd2\mgad_test\bin\debug\mgad_test.dll" id="0d1ada27-015d-3e82-a33c-625242a7e1d6">
+      <Execution id="aa5c28cb-d6fa-4b0c-a99b-4babe9826e3d" />
+      <TestMethod codeBase="C:/Documentos/PUC/TD2/MGAD_TDD2/MGAD_Test/bin/Debug/MGAD_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MGAD_Test.ProcessoDeAvaliacaoTests, MGAD_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Dado_Um_Processo_De_Avaliacao_De_Desempenho_Ao_Ser_Criado_Deve_Possuir_Uma_Avaliacao_Do_Gestor" />
+    </UnitTest>
+    <UnitTest name="Dado_Um_Comportamento_Ao_Ser_Criado_Deve_Associar_A_Algum_Grupo_De_Comportamentos" storage="c:\documentos\puc\td2\mgad_tdd2\mgad_test\bin\debug\mgad_test.dll" id="08e53e63-0c77-376a-664d-7136d9762ca2">
+      <Execution id="ea4f92ac-a3fa-4c99-8edd-bde7c2de064f" />
+      <TestMethod codeBase="C:/Documentos/PUC/TD2/MGAD_TDD2/MGAD_Test/bin/Debug/MGAD_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MGAD_Test.ComportamentoTests, MGAD_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Dado_Um_Comportamento_Ao_Ser_Criado_Deve_Associar_A_Algum_Grupo_De_Comportamentos" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="08e53e63-0c77-376a-664d-7136d9762ca2" executionId="ea4f92ac-a3fa-4c99-8edd-bde7c2de064f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0d1ada27-015d-3e82-a33c-625242a7e1d6" executionId="aa5c28cb-d6fa-4b0c-a99b-4babe9826e3d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="27b0ac42-758b-a300-a6b1-4508d4d74d71" executionId="19e91041-5f1a-4d9f-b5df-b1e83b8d5cbd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3db214db-b15d-849f-ddbb-5c0abb93555d" executionId="d22e01bf-f5c2-4ecc-a4b6-baf43fb1706b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="42ae5b82-3ba3-50c7-82b7-031fdce7c046" executionId="2a2e8d65-b57b-487a-8775-2142c297db6b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4d68059a-3c7b-32c6-9d31-a1659f5a063e" executionId="f829d665-5a27-42ab-b831-0f681fff4155" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4f68d635-d8f4-19b3-87d6-a25e7b7a182f" executionId="e8a4a0dd-0b46-45a9-9792-213a5a244660" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="994cc82c-a6c1-7fcc-8ed5-0bfc4f8aeb21" executionId="1716b152-28b5-4faf-b87f-e6dab2dbe538" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b302884f-4d03-cd71-1637-583337540a68" executionId="e1677593-5439-455e-9719-ff729ee7fee4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="ea4f92ac-a3fa-4c99-8edd-bde7c2de064f" testId="08e53e63-0c77-376a-664d-7136d9762ca2" testName="Dado_Um_Comportamento_Ao_Ser_Criado_Deve_Associar_A_Algum_Grupo_De_Comportamentos" computerName="NDANIEL" duration="00:00:16.3076021" startTime="2011-11-14T09:15:11.9052292-02:00" endTime="2011-11-14T09:15:28.7181909-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ea4f92ac-a3fa-4c99-8edd-bde7c2de064f">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method MGAD_Test.ComportamentoTests.Dado_Um_Comportamento_Ao_Ser_Criado_Deve_Associar_A_Algum_Grupo_De_Comportamentos threw exception: 
+System.Data.SqlClient.SqlException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)</Message>
+          <StackTrace>    at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, SqlConnection owningObject)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, TimeoutTimer timeout)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, TimeoutTimer timeout, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Linq.SqlClient.SqlConnectionManager.UseConnection(IConnectionUser user)
+   at System.Data.Linq.SqlClient.SqlProvider.get_IsSqlCe()
+   at System.Data.Linq.SqlClient.SqlProvider.InitializeProviderMode()
+   at System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   at System.Data.Linq.DataQuery`1.System.Linq.IQueryProvider.Execute[S](Expression expression)
+   at System.Linq.Queryable.SingleOrDefault[TSource](IQueryable`1 source)
+   at MGAD_Model.GrupoDeComportamentosDAO.RecuperarGrupoDeComportamento(String nome) in C:\Documentos\PUC\TD2\MGAD_TDD2\MGAD_Model\GrupoDeComportamentosDAO.cs:line 35
+   at MGAD_Model.GrupoDeComportamentosDAO.Salvar(GrupoDeComportamentos grupoDeComportamentos) in C:\Documentos\PUC\TD2\MGAD_TDD2\MGAD_Model\GrupoDeComportamentosDAO.cs:line 13
+   at MGAD_Model.GrupoDeComportamentos.CriarGrupoDeComportamenos(String nomeDoGrupoDeComportamentos) in C:\Documentos\PUC\TD2\MGAD_TDD2\MGAD_Model\GrupoDeComportamentos.cs:line 22
+   at MGAD_Model.Administrador.CriarGrupoComportamentos(String nomeDoGrupoDeComportamentos) in C:\Documentos\PUC\TD2\MGAD_TDD2\MGAD_Model\Administrador.cs:line 12
+   at MGAD_Test.ComportamentoTests.Dado_Um_Comportamento_Ao_Ser_Criado_Deve_Associar_A_Algum_Grupo_De_Comportamentos() in C:\Documentos\PUC\TD2\MGAD_TDD2\MGAD_Test\ComportamentoTests.cs:line 18
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="aa5c28cb-d6fa-4b0c-a99b-4babe9826e3d" testId="0d1ada27-015d-3e82-a33c-625242a7e1d6" testName="Dado_Um_Processo_De_Avaliacao_De_Desempenho_Ao_Ser_Criado_Deve_Possuir_Uma_Avaliacao_Do_Gestor" computerName="NDANIEL" duration="00:00:15.3305103" startTime="2011-11-14T09:15:28.7221911-02:00" endTime="2011-11-14T09:15:44.0590683-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="aa5c28cb-d6fa-4b0c-a99b-4babe9826e3d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method MGAD_Test.ProcessoDeAvaliacaoTests.Dado_Um_Processo_De_Avaliacao_De_Desempenho_Ao_Ser_Criado_Deve_Possuir_Uma_Avaliacao_Do_Gestor threw exception: 
+System.Data.SqlClient.SqlException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)</Message>
+          <StackTrace>    at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, SqlConnection owningObject)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, TimeoutTimer timeout)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, TimeoutTimer timeout, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Linq.SqlClient.SqlConnectionManager.UseConnection(IConnectionUser user)
+   at System.Data.Linq.SqlClient.SqlProvider.get_IsSqlCe()
+   at System.Data.Linq.SqlClient.SqlProvider.InitializeProviderMode()
+   at System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   at System.Data.Linq.DataQuery`1.System.Linq.IQueryProvider.Execute[S](Expression expression)
+   at System.Linq.Queryable.SingleOrDefault[TSource](IQueryable`1 source)
+   at MGAD_Model.GestorDAO.Salvar(Gestor novoGestor) in C:\Documentos\PUC\TD2\MGAD_TDD2\MGAD_Model\GestorDAO.cs:line 15
+   at MGAD_Model.Gestor.CriarGestor(String nome) in C:\Documentos\PUC\TD2\MGAD_TDD2\MGAD_Model\Gestor.cs:line 28
+   at MGAD_Test.ProcessoDeAvaliacaoTests.Dado_Um_Processo_De_Avaliacao_De_Desempenho_Ao_Ser_Criado_Deve_Possuir_Uma_Avaliacao_Do_Gestor() in C:\Documentos\PUC\TD2\MGAD_TDD2\MGAD_Test\ProcessoDeAvaliacaoTests.cs:line 42
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="19e91041-5f1a-4d9f-b5df-b1e83b8d5cbd" testId="27b0ac42-758b-a300-a6b1-4508d4d74d71" testName="Dado_Um_Processo_De_Avaliacao_De_Desempenho_Ao_Ser_Criado_Deve_Estar_Associado_A_Um_Gestor" computerName="NDANIEL" duration="00:00:15.3181588" startTime="2011-11-14T09:15:44.0670688-02:00" endTime="2011-11-14T09:15:59.3919453-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="19e91041-5f1a-4d9f-b5df-b1e83b8d5cbd">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method MGAD_Test.ProcessoDeAvaliacaoTests.Dado_Um_Processo_De_Avaliacao_De_Desempenho_Ao_Ser_Criado_Deve_Estar_Associado_A_Um_Gestor threw exception: 
+System.Data.SqlClient.SqlException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)</Message>
+          <StackTrace>    at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, SqlConnection owningObject)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, TimeoutTimer timeout)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, TimeoutTimer timeout, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Linq.SqlClient.SqlConnectionManager.UseConnection(IConnectionUser user)
+   at System.Data.Linq.SqlClient.SqlProvider.get_IsSqlCe()
+   at System.Data.Linq.SqlClient.SqlProvider.InitializeProviderMode()
+   at System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   at System.Data.Linq.DataQuery`1.System.Linq.IQueryProvider.Execute[S](Expression expression)
+   at System.Linq.Queryable.SingleOrDefault[TSource](IQueryable`1 source)
+   at MGAD_Model.GestorDAO.Salvar(Gestor novoGestor) in C:\Documentos\PUC\TD2\MGAD_TDD2\MGAD_Model\GestorDAO.cs:line 15
+   at MGAD_Model.Gestor.CriarGestor(String nome) in C:\Documentos\PUC\TD2\MGAD_TDD2\MGAD_Model\Gestor.cs:line 28
+   at MGAD_Test.ProcessoDeAvaliacaoTests.Dado_Um_Processo_De_Avaliacao_De_Desempenho_Ao_Ser_Criado_Deve_Estar_Associado_A_Um_Gestor() in C:\Documentos\PUC\TD2\MGAD_TDD2\MGAD_Test\ProcessoDeAvaliacaoTests.cs:line 54
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d22e01bf-f5c2-4ecc-a4b6-baf43fb1706b" testId="3db214db-b15d-849f-ddbb-5c0abb93555d" testName="Dado_Uma_Avaliacao_Ao_Ser_Criada_Deve_Associar_A_Todos_Grupos_De_Comportamentos_Existentes" computerName="NDANIEL" duration="00:00:15.3294981" startTime="2011-11-14T09:15:59.4089463-02:00" endTime="2011-11-14T09:16:14.7458235-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d22e01bf-f5c2-4ecc-a4b6-baf43fb1706b">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method MGAD_Test.AvaliacaoTests.Dado_Uma_Avaliacao_Ao_Ser_Criada_Deve_Associar_A_Todos_Grupos_De_Comportamentos_Existentes threw exception: 
+System.Data.SqlClient.SqlException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)</Message>
+          <StackTrace>    at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, SqlConnection owningObject)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, TimeoutTimer timeout)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, TimeoutTimer timeout, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Linq.SqlClient.SqlConnectionManager.UseConnection(IConnectionUser user)
+   at System.Data.Linq.SqlClient.SqlProvider.get_IsSqlCe()
+   at System.Data.Linq.SqlClient.SqlProvider.InitializeProviderMode()
+   at System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   at System.Data.Linq.DataQuery`1.System.Linq.IQueryProvider.Execute[S](Expression expression)
+   at System.Linq.Queryable.SingleOrDefault[TSource](IQueryable`1 source)
+   at MGAD_Model.GestorDAO.Salvar(Gestor novoGestor) in C:\Documentos\PUC\TD2\MGAD_TDD2\MGAD_Model\GestorDAO.cs:line 15
+   at MGAD_Model.Gestor.CriarGestor(String nome) in C:\Documentos\PUC\TD2\MGAD_TDD2\MGAD_Model\Gestor.cs:line 28
+   at MGAD_Test.AvaliacaoTests.Dado_Uma_Avaliacao_Ao_Ser_Criada_Deve_Associar_A_Todos_Grupos_De_Comportamentos_Existentes() in C:\Documentos\PUC\TD2\MGAD_TDD2\MGAD_Test\AvaliacaoTests.cs:line 18
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2a2e8d65-b57b-487a-8775-2142c297db6b" testId="42ae5b82-3ba3-50c7-82b7-031fdce7c046" testName="Dado_Um_Gestor_Ao_Ser_Solicitado_Deve_Exibir_Todos_Seus_Colaboradores_Subordinados" computerName="NDANIEL" duration="00:00:15.3057879" startTime="2011-11-14T09:16:14.7498237-02:00" endTime="2011-11-14T09:16:30.0666998-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2a2e8d65-b57b-487a-8775-2142c297db6b">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method MGAD_Test.GestorTests.Dado_Um_Gestor_Ao_Ser_Solicitado_Deve_Exibir_Todos_Seus_Colaboradores_Subordinados threw exception: 
+System.Data.SqlClient.SqlException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)</Message>
+          <StackTrace>    at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, SqlConnection owningObject)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, TimeoutTimer timeout)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, TimeoutTimer timeout, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Linq.SqlClient.SqlConnectionManager.UseConnection(IConnectionUser user)
+   at System.Data.Linq.SqlClient.SqlProvider.get_IsSqlCe()
+   at System.Data.Linq.SqlClient.SqlProvider.InitializeProviderMode()
+   at System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   at System.Data.Linq.DataQuery`1.System.Linq.IQueryProvider.Execute[S](Expression expression)
+   at System.Linq.Queryable.SingleOrDefault[TSource](IQueryable`1 source)
+   at MGAD_Model.GestorDAO.Salvar(Gestor novoGestor) in C:\Documentos\PUC\TD2\MGAD_TDD2\MGAD_Model\GestorDAO.cs:line 15
+   at MGAD_Model.Gestor.CriarGestor(String nome) in C:\Documentos\PUC\TD2\MGAD_TDD2\MGAD_Model\Gestor.cs:line 28
+   at MGAD_Test.GestorTests.Dado_Um_Gestor_Ao_Ser_Solicitado_Deve_Exibir_Todos_Seus_Colaboradores_Subordinados() in C:\Documentos\PUC\TD2\MGAD_TDD2\MGAD_Test\GestorTests.cs:line 17
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f829d665-5a27-42ab-b831-0f681fff4155" testId="4d68059a-3c7b-32c6-9d31-a1659f5a063e" testName="Dado_Um_Processo_De_Avaliacao_De_Desempenho_Ao_Ser_Criado_Deve_Possuir_Uma_Auto_Avaliacao" computerName="NDANIEL" duration="00:00:15.3161929" startTime="2011-11-14T09:16:30.0686999-02:00" endTime="2011-11-14T09:16:45.4075773-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f829d665-5a27-42ab-b831-0f681fff4155">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method MGAD_Test.ProcessoDeAvaliacaoTests.Dado_Um_Processo_De_Avaliacao_De_Desempenho_Ao_Ser_Criado_Deve_Possuir_Uma_Auto_Avaliacao threw exception: 
+System.Data.SqlClient.SqlException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)</Message>
+          <StackTrace>    at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, SqlConnection owningObject)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, TimeoutTimer timeout)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, TimeoutTimer timeout, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Linq.SqlClient.SqlConnectionManager.UseConnection(IConnectionUser user)
+   at System.Data.Linq.SqlClient.SqlProvider.get_IsSqlCe()
+   at System.Data.Linq.SqlClient.SqlProvider.InitializeProviderMode()
+   at System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   at System.Data.Linq.DataQuery`1.System.Linq.IQueryProvider.Execute[S](Expression expression)
+   at System.Linq.Queryable.SingleOrDefault[TSource](IQueryable`1 source)
+   at MGAD_Model.GestorDAO.Salvar(Gestor novoGestor) in C:\Documentos\PUC\TD2\MGAD_TDD2\MGAD_Model\GestorDAO.cs:line 15
+   at MGAD_Model.Gestor.CriarGestor(String nome) in C:\Documentos\PUC\TD2\MGAD_TDD2\MGAD_Model\Gestor.cs:line 28
+   at MGAD_Test.ProcessoDeAvaliacaoTests.Dado_Um_Processo_De_Avaliacao_De_Desempenho_Ao_Ser_Criado_Deve_Possuir_Uma_Auto_Avaliacao() in C:\Documentos\PUC\TD2\MGAD_TDD2\MGAD_Test\ProcessoDeAvaliacaoTests.cs:line 30
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e8a4a0dd-0b46-45a9-9792-213a5a244660" testId="4f68d635-d8f4-19b3-87d6-a25e7b7a182f" testName="Dado_Um_Processo_De_Avaliacao_De_Desempenho_Ao_Ser_Criado_Deve_Associar_Tres_Avaliacoes" computerName="NDANIEL" duration="00:00:15.3681716" startTime="2011-11-14T09:16:45.4135776-02:00" endTime="2011-11-14T09:17:00.7874569-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e8a4a0dd-0b46-45a9-9792-213a5a244660">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method MGAD_Test.ProcessoDeAvaliacaoTests.Dado_Um_Processo_De_Avaliacao_De_Desempenho_Ao_Ser_Criado_Deve_Associar_Tres_Avaliacoes threw exception: 
+System.Data.SqlClient.SqlException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)</Message>
+          <StackTrace>    at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, SqlConnection owningObject)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, TimeoutTimer timeout)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, TimeoutTimer timeout, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Linq.SqlClient.SqlConnectionManager.UseConnection(IConnectionUser user)
+   at System.Data.Linq.SqlClient.SqlProvider.get_IsSqlCe()
+   at System.Data.Linq.SqlClient.SqlProvider.InitializeProviderMode()
+   at System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   at System.Data.Linq.DataQuery`1.System.Linq.IQueryProvider.Execute[S](Expression expression)
+   at System.Linq.Queryable.SingleOrDefault[TSource](IQueryable`1 source)
+   at MGAD_Model.GestorDAO.Salvar(Gestor novoGestor) in C:\Documentos\PUC\TD2\MGAD_TDD2\MGAD_Model\GestorDAO.cs:line 15
+   at MGAD_Model.Gestor.CriarGestor(String nome) in C:\Documentos\PUC\TD2\MGAD_TDD2\MGAD_Model\Gestor.cs:line 28
+   at MGAD_Test.ProcessoDeAvaliacaoTests.Dado_Um_Processo_De_Avaliacao_De_Desempenho_Ao_Ser_Criado_Deve_Associar_Tres_Avaliacoes() in C:\Documentos\PUC\TD2\MGAD_TDD2\MGAD_Test\ProcessoDeAvaliacaoTests.cs:line 18
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1716b152-28b5-4faf-b87f-e6dab2dbe538" testId="994cc82c-a6c1-7fcc-8ed5-0bfc4f8aeb21" testName="Dada_Uma_Avaliacao_Ao_Ser_Criada_Deve_Possuir_Status_Em_Aberto" computerName="NDANIEL" duration="00:00:15.3165008" startTime="2011-11-14T09:17:00.7994576-02:00" endTime="2011-11-14T09:17:16.1223340-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1716b152-28b5-4faf-b87f-e6dab2dbe538">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method MGAD_Test.AvaliacaoTests.Dada_Uma_Avaliacao_Ao_Ser_Criada_Deve_Possuir_Status_Em_Aberto threw exception: 
+System.Data.SqlClient.SqlException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)</Message>
+          <StackTrace>    at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, SqlConnection owningObject)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, TimeoutTimer timeout)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, TimeoutTimer timeout, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Linq.SqlClient.SqlConnectionManager.UseConnection(IConnectionUser user)
+   at System.Data.Linq.SqlClient.SqlProvider.get_IsSqlCe()
+   at System.Data.Linq.SqlClient.SqlProvider.InitializeProviderMode()
+   at System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   at System.Data.Linq.DataQuery`1.System.Linq.IQueryProvider.Execute[S](Expression expression)
+   at System.Linq.Queryable.SingleOrDefault[TSource](IQueryable`1 source)
+   at MGAD_Model.GestorDAO.Salvar(Gestor novoGestor) in C:\Documentos\PUC\TD2\MGAD_TDD2\MGAD_Model\GestorDAO.cs:line 15
+   at MGAD_Model.Gestor.CriarGestor(String nome) in C:\Documentos\PUC\TD2\MGAD_TDD2\MGAD_Model\Gestor.cs:line 28
+   at MGAD_Test.AvaliacaoTests.Dada_Uma_Avaliacao_Ao_Ser_Criada_Deve_Possuir_Status_Em_Aberto() in C:\Documentos\PUC\TD2\MGAD_TDD2\MGAD_Test\AvaliacaoTests.cs:line 38
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e1677593-5439-455e-9719-ff729ee7fee4" testId="b302884f-4d03-cd71-1637-583337540a68" testName="Dado_Um_Administrador_Ao_Cadastrar_Um_Colaborador_Deve_Associar_A_Um_Gestor" computerName="NDANIEL" duration="00:00:15.3117854" startTime="2011-11-14T09:17:16.1303345-02:00" endTime="2011-11-14T09:17:31.4512108-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e1677593-5439-455e-9719-ff729ee7fee4">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method MGAD_Test.AdministradorTests.Dado_Um_Administrador_Ao_Cadastrar_Um_Colaborador_Deve_Associar_A_Um_Gestor threw exception: 
+System.Data.SqlClient.SqlException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)</Message>
+          <StackTrace>    at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, SqlConnection owningObject)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, TimeoutTimer timeout)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, TimeoutTimer timeout, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Linq.SqlClient.SqlConnectionManager.UseConnection(IConnectionUser user)
+   at System.Data.Linq.SqlClient.SqlProvider.get_IsSqlCe()
+   at System.Data.Linq.SqlClient.SqlProvider.InitializeProviderMode()
+   at System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   at System.Data.Linq.DataQuery`1.System.Linq.IQueryProvider.Execute[S](Expression expression)
+   at System.Linq.Queryable.SingleOrDefault[TSource](IQueryable`1 source)
+   at MGAD_Model.GestorDAO.Salvar(Gestor novoGestor) in C:\Documentos\PUC\TD2\MGAD_TDD2\MGAD_Model\GestorDAO.cs:line 15
+   at MGAD_Model.Gestor.CriarGestor(String nome) in C:\Documentos\PUC\TD2\MGAD_TDD2\MGAD_Model\Gestor.cs:line 28
+   at MGAD_Test.AdministradorTests.Dado_Um_Administrador_Ao_Cadastrar_Um_Colaborador_Deve_Associar_A_Um_Gestor() in C:\Documentos\PUC\TD2\MGAD_TDD2\MGAD_Test\AdministradorTests.cs:line 18
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

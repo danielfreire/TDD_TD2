@@ -1,0 +1,6 @@
+C:\Documentos\PUC\TD2\MGAD_TDD2\MGAD_Persistence\bin\Debug\MGAD_Persistence.dll.config
+C:\Documentos\PUC\TD2\MGAD_TDD2\MGAD_Persistence\bin\Debug\MGAD_Persistence.dll
+C:\Documentos\PUC\TD2\MGAD_TDD2\MGAD_Persistence\bin\Debug\MGAD_Persistence.pdb
+C:\Documentos\PUC\TD2\MGAD_TDD2\MGAD_Persistence\obj\Debug\ResolveAssemblyReference.cache
+C:\Documentos\PUC\TD2\MGAD_TDD2\MGAD_Persistence\obj\Debug\MGAD_Persistence.dll
+C:\Documentos\PUC\TD2\MGAD_TDD2\MGAD_Persistence\obj\Debug\MGAD_Persistence.pdb

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="MGAD_BD">
+  <DataContextMoniker Name="/MGAD_BDDataContext" />
+  <nestedChildShapes>
+    <classShape Id="08f29342-c36f-4ce2-83bf-35fc9cbf0edb" absoluteBounds="3.25, 0.5, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/MGAD_BDDataContext/grupo_de_comportamento" />
+      <nestedChildShapes>
+        <elementListCompartment Id="68164632-628a-457a-97ad-f5f9725b55fb" absoluteBounds="3.2649999999999997, 0.96, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="23cebee1-a7ba-4673-8769-514800092b5b" absoluteBounds="5.875, 0.5, 2, 1.3862939453125">
+      <DataClassMoniker Name="/MGAD_BDDataContext/comportamento" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7861cb1b-18ec-497e-9718-24b1a7c8eb59" absoluteBounds="5.89, 0.96, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="145d877c-d5e7-4cc7-ac1d-c6ecde6b611f" absoluteBounds="6, 2.25, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/MGAD_BDDataContext/gestor" />
+      <nestedChildShapes>
+        <elementListCompartment Id="55362bd4-8957-4a43-b8a5-5e503c2c20b5" absoluteBounds="6.015, 2.71, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="628b9383-1edb-41b5-af12-fde9b5a01330" absoluteBounds="3.125, 2.25, 2, 1.3862939453125">
+      <DataClassMoniker Name="/MGAD_BDDataContext/colaborador" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d6e65767-bfd1-4c30-8c86-d5b66d9cde08" absoluteBounds="3.1399999999999997, 2.71, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="00fd2d33-fff9-4a00-b99a-95d813547568" absoluteBounds="0.5, 2.375, 2, 1.3862939453125005">
+      <DataClassMoniker Name="/MGAD_BDDataContext/processo_de_avaliacao" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b1849d6f-4da0-440f-a3eb-bb496f9267c5" absoluteBounds="0.515, 2.835, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="526b6ca6-0050-4b70-8388-591cba7d6af9" absoluteBounds="0.5, 0.5, 2, 1.3862939453125">
+      <DataClassMoniker Name="/MGAD_BDDataContext/avaliacao" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c589479f-95ac-442d-873f-d3b9f8cc3cf9" absoluteBounds="0.51499999999999968, 0.96, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

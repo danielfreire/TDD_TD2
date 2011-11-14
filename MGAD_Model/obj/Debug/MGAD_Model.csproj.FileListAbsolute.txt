@@ -1,0 +1,7 @@
+C:\Documentos\PUC\TD2\MGAD_TDD2\MGAD_Model\bin\Debug\MGAD_Model.dll
+C:\Documentos\PUC\TD2\MGAD_TDD2\MGAD_Model\bin\Debug\MGAD_Model.pdb
+C:\Documentos\PUC\TD2\MGAD_TDD2\MGAD_Model\obj\Debug\ResolveAssemblyReference.cache
+C:\Documentos\PUC\TD2\MGAD_TDD2\MGAD_Model\obj\Debug\MGAD_Model.dll
+C:\Documentos\PUC\TD2\MGAD_TDD2\MGAD_Model\obj\Debug\MGAD_Model.pdb
+C:\Documentos\PUC\TD2\MGAD_TDD2\MGAD_Model\bin\Debug\MGAD_Persistence.dll
+C:\Documentos\PUC\TD2\MGAD_TDD2\MGAD_Model\bin\Debug\MGAD_Persistence.pdb
